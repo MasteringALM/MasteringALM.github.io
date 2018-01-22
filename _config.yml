@@ -1,0 +1,17 @@
+theme: jekyll-theme-modernist
+title: MasteringALM
+description: Information on the application lifecycle management. How to move code from source control to production and enable Business deploy and enable software efficiently and safely.
+
+# use where a full URL is appropriate (e.g. RSS, OG tags)
+siteurl: https://www.MasteringALM.com
+sitename: MasteringALM
+contact: admin@MasteringALM.com
+contactPhone: 7275376507
+
+# blog archive at /news
+# paginate: 50
+paginate_path: "blog/page:num"
+#permalink: /blog/:year/:month/:day/:title
+markdown: kramdown
+# Includes an icon in the footer for each user name you enter
+footer-links:
