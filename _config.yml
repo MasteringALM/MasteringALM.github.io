@@ -1,17 +1,52 @@
-theme: jekyll-theme-modernist
 title: MasteringALM
-description: Information on the application lifecycle management. How to move code from source control to production and enable Business deploy and enable software efficiently and safely.
 
-# use where a full URL is appropriate (e.g. RSS, OG tags)
-siteurl: https://www.MasteringALM.com
+
+author: GitHub User
+email: your-email@domain.com # email for form submission, you also have to change it in _js/scripts.js
+description: Information on the application lifecycle management. How to move code from source control to production and enable Business deploy and enable software efficiently and safely.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: https://www.MasteringALM.github.io
 sitename: MasteringALM
 contact: admin@MasteringALM.com
 contactPhone: 7275376507
+twitter_username: masteringMLM # replace with your_twitter_username or comment to remove link from footer
+github_username:  MasteringMLM # replace with your_github_username or comment to remove link from footer
+social:
+  name: MasteringMLM
+  links:
+    - https://twitter.com/MasteringMLM
+    - https://www.facebook.com/MasteringMLM
+    - https://www.linkedin.com/in/MasteringMLM
+    - https://github.com/MasteringMLM
 
-# blog archive at /news
-# paginate: 50
-paginate_path: "blog/page:num"
-#permalink: /blog/:year/:month/:day/:title
+disqus:
+  shortname: masteringmlm # to enable comments replace with your_disqus_shortname
+
+
+# Build settings
 markdown: kramdown
+highlighter: rouge # or pygments or null
+theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.png
+
+include: ['_pages']
+permalink: /:title/
+#permalink: /blog/:year/:month/:day/:title
+
+compress_html:
+  clippings: all
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 # Includes an icon in the footer for each user name you enter
-footer-links:
