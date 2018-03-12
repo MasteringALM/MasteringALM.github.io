@@ -1,23 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: compress
+---
+<html lang="{{ page.lang | default: site.lang | default: "en_US" }}">
 
-	{% include head.html %}	
-	  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-	{% include menu.html %}
-	<body>
-		{% if site.title and site.title != page.title %}
-			<h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-		{% endif %}
+  {% include head.html %}
 
-		<div class="container">
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    {% include header.html %}
+
+    <!-- <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/sleek_lg.jpg"> -->
+	<div class="hero lazyload">
+      <div class="hero__wrap">
+        <h1 class="hero__title">MASTERING ALM<h1>
+		        <h1 class="hero__title">WELCOMES YOU</h1>
+		<p class="font_8" style="text-align:center; line-height:1.5em;"><span class="color_11">Committed to Excellence</span></p>
+        <p class="hero__meta">
+			Mastering ALM provides first-rate  consulting and implementation of Application Lifecycle Management toolchains and processes. We are committed to helping our clients succeed and are passionate about what we do. Our accumulative knowledge spans decades and we look forward to sharing that knowledge with you.
+		</p>
+		</div>
+	</div>
 			
-			{{ content }}
-		
-		</div> <!-- /container -->
-	
-		{% include footer.html %}	
-		{% include scripts.html %}
-	
-	</body>
+	<hr>
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+            {% for post in site.posts %}
+              {% include card.html %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
 
 </html>

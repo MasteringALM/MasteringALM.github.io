@@ -1,11 +1,43 @@
-<div class="footer">
-	<div class="row">
-		<div class="col-sm-4">
-			<p class="pull-right"><small>
-			<a href="/about" title="About this site">About this site</a> | Last Updated: <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate> | &copy;
-			<a href="{{site.siteurl}}" target=_blank>{{site.sitename}}</a>
-			 {{ 'site.time  | date: "%Y" }}</small></p>
-		</div>
-		
-	</div>
-</div> <!-- /footer -->
+<footer class="footer">
+  <div class="container">
+    <nav class="social">
+	<ul style="list-style: none;">
+{% if site.github_username %}
+  <li>
+    <a href="https://github.com/{{ site.github_username }}">
+      <i class="fa fa-github"></i> GitHub
+    </a>
+  </li>
+{% endif %}
+	
+{% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-twitter"></i> Twitter
+    </a>
+  </li>
+{% endif %}
+	  
+
+  <li>
+    <a href="https://www.facebook.com/{{ site.facebook_username }}">
+      <i class="fa fa-facebook"></i> Facebook
+    </a>
+  </li>
+
+	  
+	  
+ 
+  <li>
+    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
+      <i class="fa fa-linkedin"></i> LinkedIn
+    </a>
+  </li>
+
+
+</ul>
+    </nav>
+    <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. All rights reserved.</span>
+  </div>
+</footer>
+<script async src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
