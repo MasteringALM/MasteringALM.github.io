@@ -1,32 +1,27 @@
 title: MasteringALM
-
-
-author: GitHub User
-email: your-email@domain.com # email for form submission, you also have to change it in _js/scripts.js
+author: MasteringALM
+email: admin@MasteringALM.com # email for form submission, you also have to change it in _js/scripts.js
 description: Information on the application lifecycle management. How to move code from source control to production and enable Business deploy and enable software efficiently and safely.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://www.MasteringALM.github.io
 sitename: MasteringALM
 contact: admin@MasteringALM.com
 contactPhone: 7275376507
-twitter_username: masteringMLM # replace with your_twitter_username or comment to remove link from footer
-github_username:  MasteringMLM # replace with your_github_username or comment to remove link from footer
-social:
-  name: MasteringMLM
-  links:
-    - https://twitter.com/MasteringMLM
-    - https://www.facebook.com/MasteringMLM
-    - https://www.linkedin.com/in/MasteringMLM
-    - https://github.com/MasteringMLM
+twitter_username: MasteringMLM
+github_username:  MasteringMLM 
+facebook_username: MasteringMLM
+linkedin_username: MasteringMLM
+facebook_username:    MasteringMLM
 
-disqus:
-  shortname: masteringmlm # to enable comments replace with your_disqus_shortname
+
+#disqus:
+#  shortname: masteringmlm # to enable comments replace with your_disqus_shortname
 
 
 # Build settings
 markdown: kramdown
 highlighter: rouge # or pygments or null
-theme: jekyll-sleek
+#theme: jekyll-sleek
 exclude:
   - README.md
   - node_modules

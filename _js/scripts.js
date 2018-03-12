@@ -242,7 +242,8 @@ $( "#contactForm" ).submit( function( e ) {
     $.ajax( {
 
         // Change the email address here:
-        url: "https://formspree.io/jan.czizikow@Fmail.com",
+        //url: "https://formspree.io/<EMAILHERE>",
+		url: "",
         method: "POST",
         data: $( this ).serialize(),
         dataType: "json",
