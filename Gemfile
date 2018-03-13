@@ -4,7 +4,4 @@ if Gem.win_platform?
 else
   gem 'github-pages', group: :jekyll_plugins
 end
-gem "jekyll-remote-theme"
-gem 'jekyll-sitemap'
-gem 'jekyll-paginate' 
-gem 'jekyll-theme-primer'
+gem "minima"

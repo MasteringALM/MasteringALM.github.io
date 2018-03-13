@@ -1,43 +1,72 @@
-<footer class="footer">
-  <div class="container">
-    <nav class="social">
-	<ul style="list-style: none;">
-{% if site.github_username %}
-  <li>
-    <a href="https://github.com/{{ site.github_username }}">
-      <i class="fa fa-github"></i> GitHub
-    </a>
-  </li>
-{% endif %}
-	
-{% if site.twitter_username %}
-  <li>
-    <a href="https://twitter.com/{{ site.twitter_username }}">
-      <i class="fa fa-twitter"></i> Twitter
-    </a>
-  </li>
-{% endif %}
-	  
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Committed to Excellence</h5>
+          <p class="grey-text text-lighten-4">
+Mastering ALM provides first-rate  consulting and implementation of Application Lifecycle Management toolchains and processes. We are committed to helping our clients succeed and are passionate about what we do. Our accumulative knowledge spans decades and we look forward to sharing that knowledge with you</p>
+        </div>
+      <!--   <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div> -->
+        <div class="col l5 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+		  <li>
+		  	<a href="mailto:{{ site.contact }}" class="white-text">
+			<i class="fas fa-at"></i> {{ site.contact }}
+			</a>
+		  </li>
+		  
+		  <li>
+		  	<a href="tel:+1{{ site.contactPhone }}" class="white-text">
+			  <i class="fas fa-phone"></i> {{ site.contactPhone }}
+			</a>
+		  </li>
+  		  
+            {% if site.github_username %}
+			  <li>
+				<a href="https://github.com/{{ site.github_username }}" class="white-text">
+				  <i class="fab fa-github"></i> GitHub
+				</a>
+			  </li>
+			{% endif %}
+				
+			{% if site.twitter_username %}
+			  <li>
+				<a href="https://twitter.com/{{ site.twitter_username }}" class="white-text">
+				  <i class="fab fa-twitter"></i> Twitter
+				</a>
+			  </li>
+			{% endif %}
+				  
 
-  <li>
-    <a href="https://www.facebook.com/{{ site.facebook_username }}">
-      <i class="fa fa-facebook"></i> Facebook
-    </a>
-  </li>
-
-	  
-	  
- 
-  <li>
-    <a href="https://linkedin.com/in/{{ site.linkedin_username }}">
-      <i class="fa fa-linkedin"></i> LinkedIn
-    </a>
-  </li>
-
-
-</ul>
-    </nav>
-    <span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. All rights reserved.</span>
-  </div>
+			  <li>
+				<a href="https://www.facebook.com/{{ site.facebook_username }}" class="white-text">
+				  <i class="fab fa-facebook"></i> Facebook
+				</a>
+			  </li>
+			 
+			  <li>
+				<a href="https://linkedin.com/in/{{ site.linkedin_username }}" class="white-text">
+				  <i class="fab fa-linkedin"></i> LinkedIn
+				</a>
+			  </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div>
+				<span>&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
 </footer>
-<script async src="{{ "/assets/js/bundle.js" | relative_url }}"></script>

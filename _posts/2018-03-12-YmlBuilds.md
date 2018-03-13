@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Visual Studio Team Systems (VSTS) yml style builds
+title: "Visual Studio Team Systems (VSTS) yml style builds"
+description: "Creating YML build for VSTS"
+categories: build
+author: "Chris Hudson"
+meta: "Build"
 ---
 
 Assumptions:

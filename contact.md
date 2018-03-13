@@ -9,7 +9,7 @@ permalink: /contact/
 - Email: [{{ site.contact }}](mailto:{{ site.contact }})
 - Phone: [{{ site.contactPhone }}](tel:+1{{ site.contactPhone }} )
 - Website: [{{ site.sitename }}]({{ site.siteurl }})
-
+- Business Card: [Business Card]({{ "/Files/MasteringMLM.vcf" | absolute_url }})
 
 
 

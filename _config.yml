@@ -6,12 +6,12 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://www.MasteringALM.github.io
 sitename: MasteringALM
 contact: admin@MasteringALM.com
-contactPhone: 7275376507
+contactPhone: 727-537-6507
 twitter_username: MasteringMLM
-github_username:  MasteringMLM 
+github_username: MasteringMLM 
 facebook_username: MasteringMLM
 linkedin_username: MasteringMLM
-facebook_username:    MasteringMLM
+facebook_username: MasteringMLM
 
 
 #disqus:
@@ -35,13 +35,12 @@ exclude:
   - sleek.png
 
 include: ['_pages']
-permalink: /:title/
 #permalink: /blog/:year/:month/:day/:title
-
+sass:
+    style: compressed
 compress_html:
   clippings: all
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+
 # Includes an icon in the footer for each user name you enter
