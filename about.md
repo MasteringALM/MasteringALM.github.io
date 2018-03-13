@@ -8,7 +8,7 @@ permalink: /about/
 While we do offer the best quality products and services, what really makes Mastering ALM great is our incredible team. Passionate, experienced, talented and friendly, we truly have the best of the best. Get to know the people behind the business, who are dedicated to making sure your needs are not only met, but exceeded.
 
 ## Co-owner/Technologist
-![Chris Hudson]({{ "{{site.baseurl}}/assets/img/BioChris.webp" }}){:class="img-responsive"}
+![Chris Hudson]({{site.baseurl}}/assets/img/BioChris.webp){:class="img-responsive"}
 - Chris started his career in server operations supporting a large infrastructure including thousands of servers (mostly physical ones back then) and quickly evolved into learning to code. These skills allowed him to support a large environment without a large army of sysadmins.
 
 - He coded the process to collect immense amounts of data including: WMI, event logs, disk space, anti-virus versions, etc. He then created executive dashboards giving a holistic view of the environment. 
@@ -25,7 +25,7 @@ While we do offer the best quality products and services, what really makes Mast
 
 
 ## Co-owner/Technologist
-![Matt Albright]({{ "{{site.baseurl}}/assets/img/BioMatt.webp"}}){:class="img-responsive"}
+![Matt Albright]({{site.baseurl}}/assets/img/BioMatt.webp){:class="img-responsive"}
 - Matt started his career as a programmer in charge of architecting and developing solutions that could support a massive amount of transactions while being able to maintain concurrent connections to multiple AS400 database utilizing ADO. 
 
 - He has experience with database administration. He successfully automated the process of data mining from multiple sources using SSAS and sending it to SQL servers using SSIS. This streamlined the process, removed the need for a group of analysts to manually pull the data and lowered the daily time requirements by over 90%. 
