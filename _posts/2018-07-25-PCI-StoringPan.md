@@ -53,6 +53,6 @@ Additionally, other legislation (e.g., related to consumer personal data protect
 - Do not locate servers or other payment card system storage devices outside of a locked, fully secured and access-controlled room
 - Do not permit any unauthorized people to access stored cardholder data
 
-#But, i need to see some of the digits....
+# But, i need to see some of the digits....
 The first six and last four digits are the maximum number of digits that may be displayed. 
 This requirement does not apply to those authorized with a specific need to see the full PAN, nor does it supersede stricter requirements in place for displays of cardholder data such as on a point-of-sale receipt
